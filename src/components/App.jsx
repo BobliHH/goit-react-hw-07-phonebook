@@ -2,7 +2,7 @@ import ContactForm from './ContactForm/ContactForm';
 import Filter from './Filter/Filter';
 import ContactList from './ContactList/ContactList';
 import './App.css';
-export const App = () => {
+const App = () => {
   return (
     <div className="Container">
       <h1 className="Title">Phonebook</h1>
@@ -13,3 +13,5 @@ export const App = () => {
     </div>
   );
 };
+
+export default App;
